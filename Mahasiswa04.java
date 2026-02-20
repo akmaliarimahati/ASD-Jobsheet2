@@ -1,15 +1,18 @@
 public class Mahasiswa04 {
 
+    //deklarasi attribute
     String nama;
     String nim;
     String kelas;
     double ipk;
 
-    Mahasiswa04() {
+    //konstruktor default
+    public Mahasiswa04() {
 
     }
 
-    Mahasiswa04(String nm, String nim, double ipk, String kls){
+    //konstruktor
+    public Mahasiswa04(String nm, String nim, double ipk, String kls){
         nama = nm;
         this.nim = nim;
         this.ipk = ipk;
